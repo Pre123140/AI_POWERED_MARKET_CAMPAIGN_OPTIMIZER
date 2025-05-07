@@ -89,7 +89,7 @@ AI_Marketing_Campaign_Optimizer/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Pre123140/AI_Marketing_Campaign_Optimizer.git
+git clone https://github.com/Pre123140/AI_POWERED_MARKET_CAMPAIGN_OPTIMIZER
 cd AI_Marketing_Campaign_Optimizer
 ```
 
