@@ -26,7 +26,7 @@ To develop an end-to-end AI solution for optimizing marketing strategies by:
 
 ## Conceptual Study
 Want to understand the full methodology and thinking behind this project?
-[Read the Full Conceptual Study →](https://github.com/Pre123140/AI_Marketing_Campaign_Optimizer/blob/main/AI_Marketing_Campaign_Optimizer.pdf)
+[Read the Full Conceptual Study →](https://github.com/Pre123140/AI_POWERED_MARKET_CAMPAIGN_OPTIMIZER/blob/main/AI_POWERED_MARKET_OPTIMISER.pdf)
 
 Includes:
 - Supervised learning workflow
