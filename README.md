@@ -4,28 +4,54 @@ This project applies machine learning, explainability, and statistical testing t
 
 ---
 
-## 🚀 Project Highlights
+## Project Objective
 
-- Predict customer response to a term deposit campaign using ML
-- Identify high-impact features through Mutual Information & SHAP
-- Segment customers and simulate A/B/C campaign testing
-- Generate interactive plots and visual explanations
-- Run entire pipeline via a single automation script
-
----
-
-## 🧠 Use Case
-
-Businesses often run multiple marketing campaigns without knowing which strategy resonates best with which segment. This project solves that by using AI to:
-
-- Forecast conversion likelihood
-- Interpret why customers said “yes”
-- Statistically validate best-performing strategies
+To develop an end-to-end AI solution for optimizing marketing strategies by:
+- Predicting customer responses to marketing campaigns.
+- Interpreting top conversion drivers with SHAP.
+- Running statistical tests to compare campaign versions (A/B/C).
 
 ---
 
-## 📁 Folder Structure
+## Features
 
+- Predictive model for deposit conversion
+- Mutual Information-based feature selection
+- SHAP values for model transparency
+- Automated pipeline for preprocessing, training, and testing
+- A/B/C testing simulation using Chi-Square statistics
+- Visualization suite for strategic decision-making
+
+---
+
+## Conceptual Study
+Want to understand the full methodology and thinking behind this project?
+[Read the Full Conceptual Study →](https://github.com/Pre123140/AI_Marketing_Campaign_Optimizer/blob/main/AI_Marketing_Campaign_Optimizer.pdf)
+
+Includes:
+- Supervised learning workflow
+- SHAP theory and explainability rationale
+- Statistical testing (Chi-Square method)
+- Campaign optimization principles
+- Strategic recommendations
+
+---
+
+## Tech Stack
+
+- pandas – Data loading and transformation
+- numpy – Numeric operations
+- scikit-learn – ML modeling and feature selection
+- SHAP – Explainability
+- seaborn, matplotlib – Data visualizations
+- joblib – Model saving and loading
+- scipy – Statistical A/B testing
+- streamlit (optional) – For future UI integration
+
+---
+
+## Folder Structure
+```
 AI_Marketing_Campaign_Optimizer/
 ├── data/
 │   ├── bank.csv
@@ -44,7 +70,6 @@ AI_Marketing_Campaign_Optimizer/
 │       └── shap_summary_plot.png
 │
 ├── src/
-│   ├── __pycache__/
 │   ├── ab_testing.py
 │   ├── automated_pipeline.py
 │   ├── campaign_optimizer.py
@@ -55,101 +80,75 @@ AI_Marketing_Campaign_Optimizer/
 │   ├── model_tuning.py
 │   └── shap_explain.py
 │
-├── README.md
-└── requirements.txt
-
-
-
-
-
-
-
+└── README.md
+```
 
 ---
 
-## 📊 Visual Outputs
+## How to Run the Project
 
-✅ Feature Importance Bar Plot  
-✅ SHAP Summary Plot (model interpretability)  
-✅ A/B/C Conversion Rate Bar Plot  
-✅ SHAP Insights for Campaign Impact  
-✅ Customer Segment Plot  
-✅ Campaign Testing Summary Charts  
-✅ Confusion Matrix & Classification Report  
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Pre123140/AI_Marketing_Campaign_Optimizer.git
+cd AI_Marketing_Campaign_Optimizer
+```
 
----
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
 
-## 📦 Key Deliverables
+### 3. Run the Full Pipeline
+```bash
+python src/automated_pipeline.py
+```
 
-✅ Cleaned and encoded datasets  
-✅ Feature selection using Mutual Information  
-✅ Random Forest model for conversion prediction  
-✅ SHAP explanations for model transparency  
-✅ Automated pipeline to orchestrate all steps  
-✅ A/B/C campaign testing with statistical validation  
-✅ Insightful visual reports for decision-makers
-
----
-
-## 🧰 Tools and Libraries Used
-
-- **Pandas** – Data loading and manipulation  
-- **NumPy** – Numerical operations  
-- **Scikit-learn** – ML models, feature selection, and evaluation  
-- **SHAP** – Explainable AI (SHAP values for model interpretation)  
-- **Matplotlib & Seaborn** – Visualizations  
-- **Joblib** – Model serialization  
-- **Scipy** – Chi-Square statistical testing  
-- **Streamlit (optional)** – For dashboard UI extension
+### 4. (Optional) Run Individual Scripts
+```bash
+python src/data_preprocessing.py
+python src/model_training.py
+python src/shap_explain.py
+```
 
 ---
 
-## 📌 Conceptual Study
+## Visual Outputs
 
-For a deeper dive into the algorithms, concepts, and strategic thinking behind this project, refer to the accompanying [**Conceptual Study PDF**](./conceptual_study.pdf).
-
-It covers:
-- Supervised learning principles
-- SHAP theory for explainability
-- A/B testing foundations (Chi-Square test)
-- Business relevance of AI-driven marketing
-- Strategic reflections and next steps
+- Feature Importance Plot
+- SHAP Summary Plot
+- A/B/C Conversion Testing Charts
+- Customer Segment Visuals
+- Confusion Matrix & Classification Report
 
 ---
 
-## 📈 Performance Summary
+## Deliverables
 
-- **Model Used:** Random Forest Classifier  
-- **Evaluation Metrics:** Accuracy, Confusion Matrix, Classification Report  
-- **Explainability:** SHAP summary plot and feature breakdown  
-- **Testing:** Statistically validated A/B/C testing using Chi-Square
-
----
-
-## ✅ Automation Pipeline
-
-This project includes an `automated_pipeline.py` script that runs the entire end-to-end process:
-- Data Preprocessing  
-- Feature Engineering  
-- Model Training & Evaluation  
-- SHAP-based Explanation  
-- A/B Testing for Campaign Validation
-
-This ensures reproducibility, modularity, and scalability.
+- Processed and cleaned marketing data
+- Feature selection using mutual_info_classif
+- Random Forest classifier
+- SHAP-based insight generation
+- Statistical testing outputs (Chi-Square)
+- Visual summaries of all results
 
 ---
 
-## 📌 Next Steps (Optional Extensions)
+## Next Steps (Future Enhancements)
 
-- Integrate real-time customer scoring with CRM tools  
-- Deploy dashboard for campaign managers  
-- Apply uplift modeling for causal impact estimation  
-- Add personalization layer using reinforcement learning
+- Integrate dashboard for real-time campaign monitoring
+- Apply uplift modeling for causal impact evaluation
+- Extend to multi-channel campaigns (email, call, in-app)
+- Add CRM or MarTech integration
+- Implement RL-based personalization
 
 ---
 
-**Author:** *Prerna Burande*  
-**License:** For educational and portfolio use only.  
-Commercial use or adaptation without permission is prohibited.
+## License
 
+This project is open for educational use only. For commercial deployment, contact the author.
+
+---
+
+##  Contact
+If you'd like to learn more or collaborate on projects or other initiatives, feel free to connect on [LinkedIn](https://www.linkedin.com/in/prerna-burande-99678a1bb/) or check out my [portfolio site](https://youtheleader.com/).
 
