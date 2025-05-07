@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+shap
+joblib
+scipy
+streamlit  # Optional, only if dashboard UI is used
